@@ -1,9 +1,12 @@
 import './NavBarComponent.css'
+
+
 const NavBarComponent = () => {
+  
   return (
     <div className='navbar'>
       <img src="./data/logobg.png" alt="" />
-      <div className='tags'>
+      <div className='links'>
       <a href="">Premium</a>
       <a href="">Suporte</a>
       <a href="">Baixar</a>
