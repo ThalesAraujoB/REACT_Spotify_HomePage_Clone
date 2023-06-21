@@ -2,17 +2,16 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    border: 1px solid black;
     background-color: black;
-    color:#fff;
     width: 100%;
     height: 80px;
 }
-.tags{
+.links{
+    color: #fff;
     display: flex;
+    width: 500px;
     justify-content: space-evenly;
-    justify-content: flex-end;
-    padding-right: 10px;
+    margin-left: 600px;
 }
 img {
     height: 70%;
@@ -21,7 +20,7 @@ img {
 a{
     text-decoration: none;
     color: #fff;
-    font-size: large;
+    font-size: 15px;
     font-weight: bold;
 }
 a:hover{
