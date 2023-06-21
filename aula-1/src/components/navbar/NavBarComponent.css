@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid black;
+    background-color: black;
+    color:#fff;
+    width: 100%;
+    height: 80px;
+}
+.tags{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+img {
+    height: 70%;
+    margin-left: 80px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+}
+a:hover{
+    color: 	#1DB954;
+}
