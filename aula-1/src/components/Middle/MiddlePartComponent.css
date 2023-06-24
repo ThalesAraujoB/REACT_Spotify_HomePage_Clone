@@ -22,17 +22,24 @@ button{
     margin-top: 35px;
     border: none;
     border-radius: 30px;
-    width:max-content;
+    width: max-content;
     height: 55px;
     cursor: pointer;
 }
 .btn1{
-    background-color:rgb(22, 22, 22) ;
+    background-color:rgb(32, 32, 32) ;
 }
 .btn2{
     border: 2px solid #fff;
     background-color: #1d75de;
     margin-left: 10px;
+}
+.btn1:hover{
+    background-color: #000;
+    
+}
+.btn2:hover{
+    background-color: #165db4;
 }
 .termos{
     color: #fff;
