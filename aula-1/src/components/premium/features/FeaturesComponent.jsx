@@ -1,9 +1,9 @@
 import './FeaturesComponent.css'
 
-const FeaturesComponent = ({imagembase,titulobox,mensagembox}) => {
+const FeaturesComponent = ({imagembase,titulobox,mensagembox, imgname}) => {
   return (
     <div className='box-featurs'>
-      <img src={imagembase} className='imagem-base'/>
+      <img src={imagembase}  alt={imgname} className='imagem-base'/>
       <h2 className='titulo-box'>{titulobox}</h2>
       <p className='subtitle-box'>{mensagembox}</p>
     </div>

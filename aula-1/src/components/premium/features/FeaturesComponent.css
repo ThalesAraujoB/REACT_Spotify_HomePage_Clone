@@ -1,7 +1,6 @@
 .box-featurs {
     width: 250px;
     height: 300px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,6 +13,7 @@
     height: 70px;
 }
 .titulo-box, .subtitle-box{
+    white-space: nowrap;
     display: flex;
     flex-direction: column;
     align-items: center;
