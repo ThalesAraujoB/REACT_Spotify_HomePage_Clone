@@ -1,0 +1,29 @@
+.box-featurs {
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.imagem-base{
+    margin-right: 80px;
+    width: 70px;
+    height: 70px;
+}
+.titulo-box, .subtitle-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.titulo-box{
+    margin-top: 40px;
+}
+
+.subtitle-box{
+
+    margin-top: 10px;
+}

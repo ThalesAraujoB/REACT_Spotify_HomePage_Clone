@@ -1,9 +1,8 @@
 .container-box{
-    border: 1px solid black;
 }
 .title{
+    font-weight: 880;
     margin-top: 80px;
     text-align: center;
     font-size: 37px;
-    font-weight: bolder;
 }
