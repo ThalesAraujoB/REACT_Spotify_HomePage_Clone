@@ -29,11 +29,13 @@ const PlanComponent = () => {
             alt="elo"
             className='elo'
             />
-            <img
-                src="https://logodownload.org/wp-content/uploads/2015/03/hipercard-logo-1.png"
-                alt="hiper"
-                className='hiper'
-                />
+        <img
+            src="https://logodownload.org/wp-content/uploads/2015/03/hipercard-logo-1.png"
+            alt="hiper"
+            className='hiper'
+            />
+        <a href="#" className='other-link'>+ outros 11</a>   
+
         </div>
     </div>
   )
