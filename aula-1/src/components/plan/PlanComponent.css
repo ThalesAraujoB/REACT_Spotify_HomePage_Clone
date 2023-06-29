@@ -1,0 +1,32 @@
+.all-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+.plan-box-cotainer{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+.visa,.mastercard,.amex,.elo,.hiper{
+    margin-right: -70px;
+    width:2%;
+}
+.visa{
+    margin-left: -50px;
+}
+.cards-logo{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.plan-title{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
