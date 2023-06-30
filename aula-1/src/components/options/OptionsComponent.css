@@ -1,0 +1,38 @@
+.options-box{
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 300px;
+    height:1200px;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding: 15px;
+}
+.first-btn{
+    margin-top: 5px;
+    background-color: #1d75de;
+    border-radius: 4px;
+    padding: 0;
+    height: 30px;
+    width: 180px;
+    font-size: 15px;
+}
+.sub-button{
+    margin-top: 10px;
+    color: #1d75de;
+    border: 1px solid#1d75de ;
+    border-radius: 4px;
+    padding: 0;
+    height: 30px;
+    width: 230px;
+    font-size: 15px;
+}
+.title-head{
+    margin-top: 10px;
+}
+.price,.conta{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.line{
+    margin-top: 20px;
+}
