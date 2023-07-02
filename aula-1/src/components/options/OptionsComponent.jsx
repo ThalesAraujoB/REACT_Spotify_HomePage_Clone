@@ -1,6 +1,6 @@
 import './OptionsComponent.css'
 
-const OptionsComponent = ({botao1,botao2,plano,valor,conta,option1,option2,option3,option4,option5}) => {
+const OptionsComponent = ({botao1,botao2,plano,valor,conta,option1,option2,option3}) => {
   return (
     <div className='options-box'>
         <button className="first-btn">{botao1}</button>
@@ -13,7 +13,6 @@ const OptionsComponent = ({botao1,botao2,plano,valor,conta,option1,option2,optio
         <li>&#10003; {option1}</li>
         <li>&#10003; {option2}</li>
         <li>&#10003; {option3}</li>
-        <li>&#10003; {option4}</li>
         </ul>
         <button className='start-btn'>comece agora </button>
         <p className="paragrath"><u>Sujeito a Termos e Condições.</u>O mês grátis não está disponível para usuários que já usaram o Premium.</p>
