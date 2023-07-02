@@ -1,8 +1,9 @@
 .options-box{
     border-radius: 8px;
-    border: 1px solid black;
-    width: 300px;
-    height:1200px;
+    border: 1px  rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    width: 265px;
+    height:620px;
     margin-left: 10px;
     margin-top: 50px;
     padding: 15px;
@@ -35,4 +36,22 @@
 }
 .line{
     margin-top: 20px;
+}
+.list{
+    margin-top: 20px;
+    margin-bottom: 90px;
+    list-style: none;
+}
+.start-btn{
+    background-color:rgb(32, 32, 32);
+    color: #fff;
+    width: 230px;
+    text-transform: uppercase;
+}
+.start-btn:hover{
+    background-color: #000;
+}
+.paragrath{
+    margin-top: 15px;
+    font-size: 12px;
 }
